@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.minicoral.game2048.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/tvSocre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="80dp" />
+    </LinearLayout>
+
+    <com.minicoral.game2048.GameView
+        android:id="@+id/gameView"
+        android:layout_width="fill_parent"
+        android:layout_height="360dp" >
+
+    </com.minicoral.game2048.GameView>
+
+    <LinearLayout
+        android:id="@+id/adLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+</LinearLayout>
