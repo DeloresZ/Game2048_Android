@@ -1,8 +1,6 @@
 package com.minicoral.game2048;
 
-import android.R.integer;
 import android.content.Context;
-import android.graphics.Color;
 import android.view.Gravity;
 import android.widget.FrameLayout;
 import android.widget.TextView;
